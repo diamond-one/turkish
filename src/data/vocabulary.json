@@ -2,141 +2,141 @@
     {
         "id": "1",
         "level": 1,
-        "japanese": "こんにちは",
+        "turkish": "Merhaba",
         "english": "Hello / Hi",
-        "pronunciation": "Konnichiwa"
+        "pronunciation": "Mer-ha-ba"
     },
     {
         "id": "2",
         "level": 1,
-        "japanese": "ありがとうございます",
+        "turkish": "Teşekkür ederim",
         "english": "Thank you",
-        "pronunciation": "Arigatou gozaimasu"
+        "pronunciation": "Te-shek-kur e-de-rim"
     },
     {
         "id": "3",
         "level": 1,
-        "japanese": "お願いします / どういたしまして",
-        "english": "Please / You're welcome",
-        "pronunciation": "Onegaishimasu / Douitashimashite"
+        "turkish": "Lütfen",
+        "english": "Please",
+        "pronunciation": "Lutf-en"
     },
     {
         "id": "4",
         "level": 1,
-        "japanese": "おはようございます",
+        "turkish": "Günaydın",
         "english": "Good morning",
-        "pronunciation": "Ohayou gozaimasu"
+        "pronunciation": "Gun-ay-din"
     },
     {
         "id": "5",
         "level": 1,
-        "japanese": "はい",
+        "turkish": "Evet",
         "english": "Yes",
-        "pronunciation": "Hai"
+        "pronunciation": "Ev-et"
     },
     {
         "id": "6",
         "level": 2,
-        "japanese": "いいえ",
+        "turkish": "Hayır",
         "english": "No",
-        "pronunciation": "Iie"
+        "pronunciation": "Ha-yir"
     },
     {
         "id": "7",
         "level": 2,
-        "japanese": "さようなら",
+        "turkish": "Güle güle",
         "english": "Goodbye",
-        "pronunciation": "Sayounara"
+        "pronunciation": "Gu-le Gu-le"
     },
     {
         "id": "8",
         "level": 2,
-        "japanese": "おやすみなさい",
+        "turkish": "İyi geceler",
         "english": "Good night",
-        "pronunciation": "Oyasuminasai"
+        "pronunciation": "Ee-yi ge-je-ler"
     },
     {
         "id": "9",
         "level": 2,
-        "japanese": "お元気ですか？",
-        "english": "How are you? (Polite)",
-        "pronunciation": "Ogenki desu ka?"
+        "turkish": "Nasılsın?",
+        "english": "How are you?",
+        "pronunciation": "Na-sil-sin"
     },
     {
         "id": "10",
         "level": 2,
-        "japanese": "元気です",
-        "english": "Good / Well",
-        "pronunciation": "Genki desu"
+        "turkish": "İyiyim",
+        "english": "I am good",
+        "pronunciation": "Ee-yi-yim"
     },
     {
         "id": "11",
         "level": 3,
-        "japanese": "ビール",
+        "turkish": "Bira",
         "english": "Beer",
-        "pronunciation": "Biiru"
+        "pronunciation": "Bi-ra"
     },
     {
         "id": "12",
         "level": 3,
-        "japanese": "水",
+        "turkish": "Su",
         "english": "Water",
-        "pronunciation": "Mizu"
+        "pronunciation": "Su"
     },
     {
         "id": "13",
         "level": 3,
-        "japanese": "コーヒー",
+        "turkish": "Kahve",
         "english": "Coffee",
-        "pronunciation": "Koohii"
+        "pronunciation": "Kah-veh"
     },
     {
         "id": "14",
         "level": 3,
-        "japanese": "お会計、お願いします",
+        "turkish": "Hesap lütfen",
         "english": "The bill, please",
-        "pronunciation": "Okaikei, onegaishimasu"
+        "pronunciation": "He-sap lutf-en"
     },
     {
         "id": "15",
         "level": 3,
-        "japanese": "いくらですか？",
+        "turkish": "Bu ne kadar?",
         "english": "How much does it cost?",
-        "pronunciation": "Ikura desu ka?"
+        "pronunciation": "Bu ne ka-dar"
     },
     {
         "id": "16",
         "level": 4,
-        "japanese": "わかりません",
+        "turkish": "Anlamıyorum",
         "english": "I don't understand",
-        "pronunciation": "Wakarimasen"
+        "pronunciation": "An-la-mi-yo-rum"
     },
     {
         "id": "17",
         "level": 4,
-        "japanese": "英語を話せますか？",
+        "turkish": "İngilizce biliyor musunuz?",
         "english": "Do you speak English?",
-        "pronunciation": "Eigo o hanasemasu ka?"
+        "pronunciation": "In-gi-liz-je bi-li-yor mu-su-nuz"
     },
     {
         "id": "18",
         "level": 4,
-        "japanese": "すみません",
+        "turkish": "Pardon / Özür dilerim",
         "english": "Excuse me / Sorry",
-        "pronunciation": "Sumimasen"
+        "pronunciation": "Par-don / O-zur di-le-rim"
     },
     {
         "id": "19",
         "level": 4,
-        "japanese": "トイレはどこですか？",
+        "turkish": "Tuvalet nerede?",
         "english": "Where is the toilet?",
-        "pronunciation": "Toire wa doko desu ka?"
+        "pronunciation": "Tu-va-let ne-re-de"
     },
     {
         "id": "20",
         "level": 4,
-        "japanese": "私の名前は…です",
+        "turkish": "Benim adım...",
         "english": "My name is...",
-        "pronunciation": "Watashi no namae wa... desu"
+        "pronunciation": "Be-nim a-dim..."
     }
 ]
