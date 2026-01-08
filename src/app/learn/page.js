@@ -559,17 +559,7 @@ export default function LearnPage() {
                                 {/* Actions Area */}
                                 <div className="flex flex-col gap-3 w-full px-8">
 
-                                    {/* 0. Challenge Button (Priority) */}
-                                    {levelStats.readyForChallenge && (
-                                        <button
-                                            onClick={() => setShowFastTrack(true)}
-                                            className="w-full py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold rounded-lg shadow-lg hover:scale-105 transition-transform animate-pulse text-center flex items-center justify-center gap-2"
-                                        >
-                                            <span>⚔️</span>
-                                            <span>GAUNTLET: UNLOCK LEVEL {userLevel + 1}</span>
-                                            <span>⚔️</span>
-                                        </button>
-                                    )}
+
 
                                     {/* 1. Unlock Button (Primary if Eligible) */}
                                     {unlockEligible === 'eligible' && (
