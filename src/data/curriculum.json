@@ -1,0 +1,97 @@
+{
+    "level_1": {
+        "id": "level_1",
+        "title": "Survival Interaction",
+        "goal": "Greet politely, introduce yourself, order items, and ask for help.",
+        "unlock_criteria": {
+            "phrases_mastered_pct": 0.7,
+            "frames_usable_pct": 0.8
+        },
+        "frames": [
+            {
+                "id": "frame_1a",
+                "type": "frame",
+                "template": "[NOUN] lütfen",
+                "description": "Polite request / Ordering",
+                "slot_definitions": {
+                    "NOUN": "Object you want"
+                },
+                "example_phrase_ids": [
+                    "phrase_1a_1",
+                    "phrase_1a_2",
+                    "phrase_1a_3"
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "id": "phrase_1a_1",
+                "type": "phrase",
+                "text": "Kahve lütfen.",
+                "translation": "Coffee, please.",
+                "pronunciation": "Kah-veh lutf-en",
+                "audio_text": "Kahve lütfen",
+                "frame_id": "frame_1a",
+                "word_ids": [
+                    "word_lutfen",
+                    "word_kahve"
+                ]
+            },
+            {
+                "id": "phrase_1a_2",
+                "type": "phrase",
+                "text": "Su lütfen.",
+                "translation": "Water, please.",
+                "pronunciation": "Su lutf-en",
+                "audio_text": "Su lütfen",
+                "frame_id": "frame_1a",
+                "word_ids": [
+                    "word_lutfen",
+                    "word_su"
+                ]
+            },
+            {
+                "id": "phrase_1a_3",
+                "type": "phrase",
+                "text": "Hesap lütfen.",
+                "translation": "The bill, please.",
+                "pronunciation": "He-sap lutf-en",
+                "audio_text": "Hesap lütfen",
+                "frame_id": "frame_1a",
+                "tags": [
+                    "restaurant"
+                ],
+                "word_ids": [
+                    "word_lutfen",
+                    "word_hesap"
+                ]
+            }
+        ],
+        "words": [
+            {
+                "id": "word_lutfen",
+                "lemma": "lütfen",
+                "translation": "please",
+                "pronunciation": "lutf-en"
+            },
+            {
+                "id": "word_kahve",
+                "lemma": "kahve",
+                "translation": "coffee",
+                "pronunciation": "Kah-veh"
+            },
+            {
+                "id": "word_su",
+                "lemma": "su",
+                "translation": "water",
+                "pronunciation": "Su"
+            },
+            {
+                "id": "word_hesap",
+                "lemma": "hesap",
+                "translation": "the bill",
+                "pronunciation": "He-sap"
+            }
+        ]
+    }
+}

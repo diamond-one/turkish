@@ -1,0 +1,142 @@
+[
+    {
+        "id": "1",
+        "level": 1,
+        "japanese": "こんにちは",
+        "english": "Hello / Hi",
+        "pronunciation": "Konnichiwa"
+    },
+    {
+        "id": "2",
+        "level": 1,
+        "japanese": "ありがとうございます",
+        "english": "Thank you",
+        "pronunciation": "Arigatou gozaimasu"
+    },
+    {
+        "id": "3",
+        "level": 1,
+        "japanese": "お願いします / どういたしまして",
+        "english": "Please / You're welcome",
+        "pronunciation": "Onegaishimasu / Douitashimashite"
+    },
+    {
+        "id": "4",
+        "level": 1,
+        "japanese": "おはようございます",
+        "english": "Good morning",
+        "pronunciation": "Ohayou gozaimasu"
+    },
+    {
+        "id": "5",
+        "level": 1,
+        "japanese": "はい",
+        "english": "Yes",
+        "pronunciation": "Hai"
+    },
+    {
+        "id": "6",
+        "level": 2,
+        "japanese": "いいえ",
+        "english": "No",
+        "pronunciation": "Iie"
+    },
+    {
+        "id": "7",
+        "level": 2,
+        "japanese": "さようなら",
+        "english": "Goodbye",
+        "pronunciation": "Sayounara"
+    },
+    {
+        "id": "8",
+        "level": 2,
+        "japanese": "おやすみなさい",
+        "english": "Good night",
+        "pronunciation": "Oyasuminasai"
+    },
+    {
+        "id": "9",
+        "level": 2,
+        "japanese": "お元気ですか？",
+        "english": "How are you? (Polite)",
+        "pronunciation": "Ogenki desu ka?"
+    },
+    {
+        "id": "10",
+        "level": 2,
+        "japanese": "元気です",
+        "english": "Good / Well",
+        "pronunciation": "Genki desu"
+    },
+    {
+        "id": "11",
+        "level": 3,
+        "japanese": "ビール",
+        "english": "Beer",
+        "pronunciation": "Biiru"
+    },
+    {
+        "id": "12",
+        "level": 3,
+        "japanese": "水",
+        "english": "Water",
+        "pronunciation": "Mizu"
+    },
+    {
+        "id": "13",
+        "level": 3,
+        "japanese": "コーヒー",
+        "english": "Coffee",
+        "pronunciation": "Koohii"
+    },
+    {
+        "id": "14",
+        "level": 3,
+        "japanese": "お会計、お願いします",
+        "english": "The bill, please",
+        "pronunciation": "Okaikei, onegaishimasu"
+    },
+    {
+        "id": "15",
+        "level": 3,
+        "japanese": "いくらですか？",
+        "english": "How much does it cost?",
+        "pronunciation": "Ikura desu ka?"
+    },
+    {
+        "id": "16",
+        "level": 4,
+        "japanese": "わかりません",
+        "english": "I don't understand",
+        "pronunciation": "Wakarimasen"
+    },
+    {
+        "id": "17",
+        "level": 4,
+        "japanese": "英語を話せますか？",
+        "english": "Do you speak English?",
+        "pronunciation": "Eigo o hanasemasu ka?"
+    },
+    {
+        "id": "18",
+        "level": 4,
+        "japanese": "すみません",
+        "english": "Excuse me / Sorry",
+        "pronunciation": "Sumimasen"
+    },
+    {
+        "id": "19",
+        "level": 4,
+        "japanese": "トイレはどこですか？",
+        "english": "Where is the toilet?",
+        "pronunciation": "Toire wa doko desu ka?"
+    },
+    {
+        "id": "20",
+        "level": 4,
+        "japanese": "私の名前は…です",
+        "english": "My name is...",
+        "pronunciation": "Watashi no namae wa... desu"
+    }
+]
