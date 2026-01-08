@@ -15,13 +15,13 @@ const CHALLENGES = {
         description: "Complete two tasks: Order in a café and introduce yourself.",
         steps: [
             // Task 1: Café
-            { prompt: "Greet the barista politely.", hint: "Dobrý den / Ahoj", expected: "Dobrý den." },
-            { prompt: "Order a coffee.", hint: "Prosím...", expected: "Prosím kávu." },
-            { prompt: "Say thank you.", hint: "Děkuji", expected: "Děkuji." },
-            { prompt: "Say goodbye.", hint: "Nashledanou", expected: "Nashledanou." },
+            { prompt: "Greet the barista politely.", hint: "Merhaba", expected: "Merhaba." },
+            { prompt: "Order a coffee.", hint: "Kahve...", expected: "Kahve lütfen." },
+            { prompt: "Say thank you.", hint: "Teşekkürler", expected: "Teşekkürler." },
+            { prompt: "Say goodbye.", hint: "Güle güle", expected: "Güle güle." },
             // Task 2: Intro
-            { prompt: "Say your name.", hint: "Já jsem...", expected: "Já jsem [Name]." },
-            { prompt: "Say 'I speak a little Czech'.", hint: "Mluvím...", expected: "Mluvím trochu česky." }
+            { prompt: "Say your name.", hint: "Ben...", expected: "Ben [Name]." },
+            { prompt: "Say 'I speak a little Turkish'.", hint: "Biraz...", expected: "Biraz Türkçe konuşuyorum." }
         ]
     },
     "2": {
@@ -29,30 +29,30 @@ const CHALLENGES = {
         description: "Ask for help and express what you want.",
         steps: [
             // Task 1: Help
-            { prompt: "Say you need help.", hint: "Potřebuji...", expected: "Potřebuji pomoc." },
-            { prompt: "Ask how much a ticket costs.", hint: "Kolik...", expected: "Kolik stojí lístek?" },
-            { prompt: "Say thank you.", hint: "Děkuji", expected: "Děkuji." },
+            { prompt: "Say you need help.", hint: "Yardım...", expected: "Yardım lazım." },
+            { prompt: "Ask how much a ticket costs.", hint: "Bilet...", expected: "Bilet ne kadar?" },
+            { prompt: "Say thank you.", hint: "Teşekkürler", expected: "Teşekkürler." },
             // Task 2: Wants
-            { prompt: "Say you want a beer.", hint: "Chci...", expected: "Chci pivo." },
-            { prompt: "Say you want to sleep.", hint: "Chci...", expected: "Chci spát." } // Or pracovat
+            { prompt: "Say you want a beer.", hint: "Bira...", expected: "Bira istiyorum." },
+            { prompt: "Say you want to sleep.", hint: "Uyumak...", expected: "Uyumak istiyorum." } // Note: Uyumak is implied from context or teachable
         ]
     },
     "3": {
         title: "Routine: The Catch-Up",
         description: "Tell a friend about your past, present, and future.",
         steps: [
-            { prompt: "Say what you did yesterday (worked).", hint: "Včera...", expected: "Včera jsem pracoval." },
-            { prompt: "Say what you are doing today (working).", hint: "Dnes...", expected: "Dnes pracuji." },
-            { prompt: "Say what you will do tomorrow (work).", hint: "Zítra...", expected: "Zítra budu pracovat." }
+            { prompt: "Say what you did yesterday (worked).", hint: "Dün...", expected: "Dün çalıştım." },
+            { prompt: "Say what you are doing today (working).", hint: "Bugün...", expected: "Bugün çalışıyorum." },
+            { prompt: "Say what you will do tomorrow (work).", hint: "Yarın...", expected: "Yarın çalışacağım." }
         ]
     },
     "4": {
         title: "Opinion: The Debate",
         description: "Express your opinion and obligation.",
         steps: [
-            { prompt: "Say 'I think that it is good.'", hint: "Myslím si...", expected: "Myslím si, že je to dobré." },
-            { prompt: "Say 'I must work.'", hint: "Musím...", expected: "Musím pracovat." },
-            { prompt: "Add a reason (Optional: Because...)", hint: "Protože...", expected: "Protože [Reason]." }
+            { prompt: "Say 'I think that it is good.'", hint: "Bu iyi...", expected: "Bu iyi sanırım." },
+            { prompt: "Say 'I must work.'", hint: "Çalışmam...", expected: "Çalışmam lazım." },
+            { prompt: "Add a reason (Optional: Because...)", hint: "Çünkü...", expected: "Çünkü [Reason]." }
         ]
     }
 };
@@ -84,13 +84,13 @@ export default function ChallengePage() {
     };
 
     const completeChallenge = () => {
-        const saved = localStorage.getItem('czech-app-progress-v2');
+        const saved = localStorage.getItem('turkish-app-progress-v1');
         let progress = saved ? JSON.parse(saved) : {};
 
         progress.challenges = progress.challenges || {};
         progress.challenges[level] = true;
 
-        localStorage.setItem('czech-app-progress-v2', JSON.stringify(progress));
+        localStorage.setItem('turkish-app-progress-v1', JSON.stringify(progress));
 
         alert("Challenge Complete! Level Unlocked! 🎉");
         router.push('/learn');
