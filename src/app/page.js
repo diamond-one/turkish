@@ -40,7 +40,7 @@ export default function Home() {
       <div className="min-h-screen bg-brand-blue flex flex-col items-center justify-center p-6 animate-in fade-in duration-700">
         <div className="relative w-48 h-48 mb-6 animate-bounce">
           {/* Using the icon directly as an image */}
-          <img src="/icons/icon.svg" alt="Turkish Patterns Logo" className="w-full h-full object-contain rounded-3xl shadow-2xl" />
+          <img src="/icons/icon.png" alt="Turkish Patterns Logo" className="w-full h-full object-contain rounded-3xl shadow-2xl" />
         </div>
         <h1 className="text-4xl font-bold text-white tracking-widest uppercase">Turkish Patterns</h1>
         <p className="text-brand-teal text-opacity-80 mt-2 font-medium">Speak from Day One</p>

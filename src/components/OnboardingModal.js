@@ -25,7 +25,7 @@ export default function OnboardingModal() {
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-300">
             <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 text-center border-4 border-brand-blue transform transition-all scale-100">
                 <div className="w-24 h-24 mx-auto mb-6">
-                    <img src="/icons/icon.svg" alt="App Icon" className="w-full h-full object-contain" />
+                    <img src="/icons/icon.png" alt="App Icon" className="w-full h-full object-contain" />
                 </div>
 
                 <h2 className="text-2xl font-bold text-gray-800 mb-2">Hoş geldiniz! (Welcome)</h2>
