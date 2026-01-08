@@ -24,8 +24,8 @@ export const metadata = {
   description: "Learn Turkish through spoken patterns.",
   manifest: "/manifest.json",
   icons: {
-    icon: "/icons/icon-v3-192.png",
-    apple: "/icons/icon-v3-192.png",
+    icon: "/icons/icon.svg",
+    apple: "/icons/icon.svg",
   }
 };
 
